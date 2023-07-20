@@ -6,7 +6,6 @@ export default function Weather(props) {
 
     useEffect(() => {
         fetch("https://qa.foreflight.com/weather/report/kaus", {
-            method: 'get',
             headers: new Headers({
                 "ff-coding-exercise": "1"
             })
